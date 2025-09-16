@@ -1,4 +1,4 @@
-# Tuya Smart Knob — Master Brightness for Multiple Groups
+# Tuya Smart Knob (ZG-101Z/D, TS004F, etc.) — Master Brightness for Multiple Groups via Zigbee2MQTT
 
 This [Home Assistant](https://www.home-assistant.io/) blueprint allows you to use a **Tuya Zigbee rotary knob** (ZG-101Z/D, TS004F, etc.) as a master brightness controller for multiple lights or groups.  
 It stores brightness in a single `input_number` helper (0–100) and applies it to all selected targets with smart pre-power logic, availability filtering, and auto-resync when power is restored.
